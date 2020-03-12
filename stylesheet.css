@@ -1,0 +1,166 @@
+*{
+	box-sizing:border-box;
+}
+
+body {
+font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+ 
+header{
+	padding:10px 0px;
+}
+ 
+ .container{
+ 	overflow:hidden;
+	max-width:1000px;
+	width:100%;
+	margin:0px auto;
+} 
+
+.logo {
+	float:left;
+}
+
+
+.menu-icon {
+	display:none !important;
+	color: black;
+	float: right;
+	font-size: 25px;
+	padding: 21px 0;
+	margin-right:20px;
+}
+
+.menu-list{
+	float:right;
+/*	display:inline-block;*/
+	overflow:hidden;
+	padding-top:15px;
+}
+
+.menu{
+	list-style: none;
+	font-weight:18px;
+	float:right;
+	border-left:solid 1px #CCC; 
+}
+
+.menu:hover{
+	background-color:#CCC;
+}
+
+.menu1{
+	border-right:solid 1px #CCC;
+}
+
+.menu a{
+	display:inline-block;
+	padding:5px 16px;
+}
+
+.main-img{
+	clear:both;
+	margin-bottom:100px;
+	text-align:center;
+}
+
+.main-img img{
+	display:inline-block;
+	max-width:1280px;
+	width:100%;
+}
+
+.main-contents{
+	text-align:center;
+}
+
+.ability-title{
+	width:25%;
+	margin:0px auto 30px auto;
+	padding-bottom:10px;
+	border-bottom:solid 5px green;
+	font-size:36px;
+}
+
+.ability{
+	float:left;
+	width:33%;
+	margin-bottom:100px;
+}
+
+.ability-list img{
+	margin-bottom:30px;
+}
+
+.ability-list h3{
+	font-size:32px;
+	margin-bottom:20px;
+}
+
+.ability-list p{
+	font-size:20px;
+}
+
+.sub-contents{
+	clear:both; 
+	overflow:hidden;
+	margin-bottom:80px;
+}
+
+.sub-content1{
+	float:left;
+	width:50%;
+	padding-right:5%;
+}
+
+.sub-contents h3{
+	font-size:32px;
+	line-height:1.5;
+	margin-bottom:30px;
+}
+
+.sub-contents p{
+	font-size:22px;
+	line-height:1.5;
+	margin-bottom:40px;
+}
+
+.bottom{
+	display:inline-block;
+	padding:10px 50px;
+	color:green;
+	border:solid 2px green;
+	font-size:22px;
+	border-radius:30px;
+}
+
+.bottom:hover{
+	background-color:green;
+	color:white;
+}
+
+.sub-content2{
+	float:right;
+	width:50%;
+}
+
+.sub-content2 img{
+	display:inline-block;
+	width:100%;
+}
+
+footer {
+	clear:both;
+	max-width:1280px;
+	margin:0px auto;
+}
+
+footer p{
+	text-align:center;
+	padding:20px 0px;
+	background-color:#CCC;
+}
