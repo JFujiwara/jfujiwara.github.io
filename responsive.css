@@ -1,0 +1,87 @@
+/******************************* */
+/* タブレット向けレイアウト */
+/******************************* */
+@media (max-width: 1000px) {
+
+ .container{
+ 	overflow:hidden;
+	width:670px;
+	margin:0px auto;
+} 
+
+.main-img img{
+	max-width: 100%;
+}
+
+.ability{
+	float:left;
+	width:50%;
+	margin-bottom:100px;	
+}
+
+.sub-contents {
+	margin-bottom:80px;
+	text-align:center;
+}
+
+.sub-content1{
+	width:100%;
+	margin-bottom:100px;
+}
+
+.sub-content2{
+	width:100%
+}
+/******************************* */
+/* スマートフォン向けレイアウト */
+/******************************* */
+@media (max-width: 670px) {
+ .container{
+ 	overflow:hidden;
+	width:100%;
+	margin:0px auto;
+} 
+
+.menu-icon {
+	display:block !important;
+}
+
+.menu-list{
+	display:none !important;
+}
+
+.main-img img{
+max-width: 100%;
+}
+
+.ability{
+	float:left;
+	width:100%;
+	margin-bottom:100px;	
+}
+
+.sub-contents {
+	margin-bottom:80px;
+	text-align:center;
+}
+
+.sub-contents img{
+	max-width: 100%;
+}
+
+.sub-content1{
+	width:100%;
+}
+
+.bottom{
+	padding-top:10px;
+	padding-bottom:10px;
+	width:100%;
+}
+
+
+.sub-content2{
+	width:100%
+}
+
+}
